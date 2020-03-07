@@ -138,6 +138,11 @@ public class Program {
 			System.out.println(i);
 		}
 	}
+	
+	/**
+	 * 
+	 */
+	
 	private static void removeElement() {
 		int[] inputArray = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
 		int[] newArray = ArrayHelper.removeTheElement(inputArray, 1);
