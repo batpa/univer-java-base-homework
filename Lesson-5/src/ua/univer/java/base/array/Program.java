@@ -1,7 +1,4 @@
 package ua.univer.java.base.array;
-
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Program {
@@ -24,7 +21,8 @@ public class Program {
 //		for (int i : arr) {
 //			System.out.println(i);
 //		}
-		taskArray68();
+		//taskArray68();
+		removeElement();
 	}
 
 	/**
@@ -140,5 +138,12 @@ public class Program {
 			System.out.println(i);
 		}
 	}
-
+	private static void removeElement() {
+		int[] inputArray = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
+		int[] newArray = ArrayHelper.removeTheElement(inputArray, 1);
+		for (int i : newArray) {
+			System.out.println(i);
+		}
+		
+	}
 }
